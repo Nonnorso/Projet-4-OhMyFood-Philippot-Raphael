@@ -31,6 +31,15 @@ a {
   width: 162px;
 }
 
+.rtnbtn {
+  position: absolute;
+  top: 24px;
+  left: 23px;
+}
+.rtnbtn i {
+  color: #353535;
+}
+
 .formsection {
   display: flex;
   justify-content: center;
@@ -287,4 +296,137 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+
+.homemenur1 {
+  display: flex;
+  flex-direction: column;
+}
+.homemenur1 img {
+  height: 275px;
+  object-fit: cover;
+}
+
+.homestyle {
+  display: flex;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-top: -40px;
+  background-color: #F7F7F7;
+  padding-top: 32px;
+  padding-left: 17px;
+  justify-content: space-between;
+  padding-bottom: 42px;
+}
+
+.restname {
+  display: flex;
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.ipos {
+  padding-right: 41px;
+  align-items: center;
+  display: flex;
+}
+
+.starter-dish-dessert {
+  display: flex;
+  background-color: #F7F7F7;
+  flex-direction: column;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 40px;
+}
+
+.menusubtitles {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.subdeco {
+  border-bottom: 3px solid #99E2D0;
+  padding-bottom: 5px;
+}
+
+.selectionmenu {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.nx {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  gap: 5px;
+  background-color: white;
+  box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.selectname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.selectiontxt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15.0431px;
+  line-height: 18px;
+}
+
+.price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  padding-right: 15px;
+  font-size: 15.0431px;
+  line-height: 18px;
+}
+
+.ordersection {
+  display: flex;
+  justify-content: center;
+  background-color: #F7F7F7;
+}
+.ordersection btnsearch {
+  margin: 0px;
+  padding-bottom: 40px;
+}
+
+.btncommand {
+  background: linear-gradient(0deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: 0px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 40px;
+  height: 50px;
+  width: 186px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=Mobile.css.map */
