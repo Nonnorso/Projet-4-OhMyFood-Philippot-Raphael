@@ -1,0 +1,105 @@
+//******* header *******//
+.logopad{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width:200px;
+  }
+
+//******* formulaire *******//
+.h1desk{
+    font-size:40px;
+}
+
+.btn {
+
+    h1{
+        padding-bottom:18px;
+        padding-top:30px}
+    
+}
+
+.btnsearch{
+    margin-bottom:30px;
+}
+
+//******* section fuction and restaurantbox *******//
+
+.function, .restaurantbox{
+    padding-left:180px;
+    padding-right:180px;
+}
+
+//******* function *******//
+.function{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.boxfilter{
+    flex-direction: row;
+    padding-left:12px;
+    gap:36px;
+}
+
+.flexfilter{
+    padding-right: 38px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+}
+
+.filtertxt{
+    padding-right: 36px;
+}
+
+.ellipse{
+    margin-left:-47px;
+    left:auto;
+}
+
+//******* restaurantbox *******//
+.restaurantbox{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.cardcontainer {
+    flex-direction: row;
+    gap: 50px 91px;
+    flex-wrap: wrap;
+}
+
+.card img{
+    height:174px;
+    width:490px;
+}
+
+//******* footer *******//
+.flexfooter{
+    flex-direction: row-reverse;
+    padding-top: 57px;
+    padding-right: 26px;
+    padding-bottom: 30px;
+    gap:90px;
+}
+
+.footlogo{
+    padding-right: 41px;
+}
+
+.footerlinks{
+    flex-direction: row-reverse;
+    ul{
+        display: flex;
+        gap:15px;}
+    li{
+        padding:0px;}
+}
+
+.footerlinktxt{
+    font-weight: 400;
+}
+
+.dskfootadapt{
+    padding-right:33px;
+}

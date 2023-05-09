@@ -64,7 +64,7 @@ padding-bottom: 17px;
 .inputstyle{
     border:none;
     background-color: $grey;
-    width: 30%;
+    width: 112px;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -83,12 +83,12 @@ padding-bottom: 17px;
     flex-direction: column;
     background-color: $lightgrey; 
     text-align: center;
+    align-items: center;
     
     h1{
         padding-top: 39.5px;
-        padding-left: 42px;
         margin-bottom: 12px;
-        padding-right: 58px;}
+        width:80%}
 }
 
 
@@ -99,9 +99,7 @@ padding-bottom: 17px;
     font-size: 18px;
     color:$blacktxt;
     margin:0px;
-    padding-left:34px;
-    padding-right:26px;
-    padding-bottom:27px;
+    padding-bottom:30px;
 }
 
 .btnsearch{
@@ -115,8 +113,6 @@ padding-bottom: 17px;
     font-weight: 500;
     font-size: 16px;
     padding: 13px 18.75px;
-    margin-left:82px;
-    margin-right:75px;
     margin-bottom:57px;
 }
 
@@ -147,6 +143,7 @@ padding-bottom: 17px;
     border-radius: 20px;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left:34px;
     background-color: $lightgrey;
 }
 
@@ -162,8 +159,8 @@ padding-bottom: 17px;
     font-weight: 500;
     font-size: 14.1818px;
     line-height: 17px;
-    margin-left: -3%;
-    margin-right: 22px;
+    position:absolute;
+    left:7px;
 }
 
 .filtertxt{
@@ -235,8 +232,8 @@ padding-bottom: 17px;
     flex-direction: column;
     padding-top:16px;
     padding-left: 13px;
-    padding-bottom: 12px;
-    gap:5px;
+    padding-bottom: 16px;
+    gap:4px;
     h3{font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
