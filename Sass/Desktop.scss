@@ -70,8 +70,8 @@
 }
 
 .card img{
-    height:174px;
     width:490px;
+    object-position: center;
 }
 
 //******* footer *******//
@@ -103,3 +103,23 @@
 .dskfootadapt{
     padding-right:33px;
 }
+//******* restpage *******//
+.homestyle{
+    margin-left: 193px;
+    margin-right: 193px;
+    padding-top: 51px;
+    justify-content: center;
+    gap:24px;
+}
+
+.starter-dish-dessert, .ordersection{
+    margin-left: 193px;
+    margin-right: 193px;
+    padding-left:211px;
+    padding-right:211px
+}
+
+.selectionmenu{
+    gap:12px;
+}
+

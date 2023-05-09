@@ -60,8 +60,8 @@
 }
 
 .card img {
-  height: 174px;
   width: 490px;
+  object-position: center;
 }
 
 .flexfooter {
@@ -93,4 +93,23 @@
 
 .dskfootadapt {
   padding-right: 33px;
+}
+
+.homestyle {
+  margin-left: 193px;
+  margin-right: 193px;
+  padding-top: 51px;
+  justify-content: center;
+  gap: 24px;
+}
+
+.starter-dish-dessert, .ordersection {
+  margin-left: 193px;
+  margin-right: 193px;
+  padding-left: 211px;
+  padding-right: 211px;
+}
+
+.selectionmenu {
+  gap: 12px;
 }/*# sourceMappingURL=Desktop.css.map */
