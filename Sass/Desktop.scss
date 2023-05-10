@@ -38,9 +38,10 @@
 }
 
 .boxfilter{
-    flex-direction: row;
-    padding-left:12px;
-    gap:36px;
+    display: grid;
+    padding-left: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 36px;
 }
 
 .flexfilter{
@@ -66,15 +67,16 @@
 }
 
 .cardcontainer {
-    flex-direction: row;
-    gap: 50px 91px;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-gap: 50px 91px;
     padding-left:0px;
     padding-right:0px;
 }
 
 .card img{
-    width:490px;
+    width:100%;
     object-position: center;
 }
 
