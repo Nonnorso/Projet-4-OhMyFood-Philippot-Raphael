@@ -260,7 +260,7 @@ padding-bottom: 17px;
 .cardtxt i{
     padding-right:15px;
     color:black;
-    font-size:24px;
+    font-size:22px;
 }
 
 .heart{
@@ -278,7 +278,7 @@ padding-bottom: 17px;
 
 .heart .purple-heart{
     color: transparent;
-    background-image:linear-gradient(0deg, #9356DC -11.44%, #FF79DA 123.93%);
+    background-image:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     background-clip: text;
     position:absolute;
     position: absolute;
@@ -376,6 +376,7 @@ padding-bottom: 17px;
     background-color:$lightgrey;
     padding-top:32px;
     padding-left:17px;
+    padding-right:41px;
     justify-content: space-between;
     padding-bottom:42px;
 }
@@ -389,10 +390,10 @@ padding-bottom: 17px;
     
 }
 
-.ipos{
-    padding-right: 41px;
-    align-items: center;
+.ipos{  align-items: center;
     display: flex;
+    font-size: 22px;
+    cursor: pointer;
 }
 
 //******* starter *******//
