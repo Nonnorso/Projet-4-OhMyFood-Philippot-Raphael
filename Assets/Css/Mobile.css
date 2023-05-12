@@ -615,7 +615,7 @@ a {
   padding: 24px 19px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  transition: width 0.4s ease-in-out, opacity 0.1s ease;
+  transition: width 0.2s ease-in-out, opacity 0.1s ease;
   opacity: 0;
   width: 0;
   overflow: hidden;
@@ -632,7 +632,7 @@ a {
 }
 
 .chkdirection:hover .selectname {
-  max-width: 83%;
+  max-width: 65%;
 }
 
 .chkdirection:hover .description {
