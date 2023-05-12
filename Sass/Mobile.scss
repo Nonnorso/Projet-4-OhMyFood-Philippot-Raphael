@@ -567,6 +567,8 @@ padding-bottom: 17px;
     background-color: white;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
     border-radius:15px;
+    width:100%;
+    box-sizing: border-box;
     animation-name: appear;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -634,6 +636,39 @@ padding-bottom: 17px;
     }
   }
 
+.chkdirection{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    position: relative;
+}
+
+.chkmnu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display:flex;
+    font-size: 20px;
+    color: white;
+    background-color: $green;
+    padding: 24px 19px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: width 0.4s ease-in-out, opacity 0.1s ease;
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+}
+  
+.chkdirection:hover .chkmnu {
+    width: 5%;
+    opacity: 1;
+    overflow: visible;
+  }
+
+.chkdirection:hover .selectiontxt{
+    width:84%;
+}
 
 .selectname{
     font-family: 'Roboto';
@@ -646,6 +681,8 @@ padding-bottom: 17px;
 .selectiontxt{
     display:flex;
     justify-content: space-between;
+    width:100%;
+    transition: width 0.5s ease;
 }
 
 .description{
