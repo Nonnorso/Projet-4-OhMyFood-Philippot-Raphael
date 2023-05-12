@@ -32,7 +32,6 @@ a {text-decoration: unset;}
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
     overflow: hidden;
     -webkit-animation-name: loaderShowing;
     -webkit-animation-duration: 500ms;
@@ -87,7 +86,7 @@ a {text-decoration: unset;}
         font-family: 'Shrikhand';
         font-style: italic;
         font-weight: 700;
-        font-size: 70px;
+        font-size: 50px;
         position:sticky;
         background: linear-gradient(0deg, #9356DC -11.44%, #FF79DA 123.93%);
         background-clip: text;
