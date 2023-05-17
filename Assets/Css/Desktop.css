@@ -125,12 +125,4 @@
 
 .selectionmenu {
   gap: 12px;
-}
-
-.chkdirection:hover .selectiontxt {
-  max-width: 86.7%;
-}
-
-.chkdirection:hover .selectname {
-  max-width: 65%;
 }/*# sourceMappingURL=Desktop.css.map */

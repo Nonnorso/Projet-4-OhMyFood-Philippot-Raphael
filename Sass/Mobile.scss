@@ -564,46 +564,39 @@ padding-bottom: 17px;
     padding-top:12px;
     padding-bottom:12px;
     gap:5px;
-    background-color: white;
-    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
-    border-radius:15px;
     width:100%;
     box-sizing: border-box;
-    animation-name: appear;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    opacity:0;
 }
   
 .selectionmenu1 {
-    .nx1 {
+    .chkdirection1 {
         animation-delay: 0s;
     }
   
-    .nx2 {
+    .chkdirection2 {
         animation-delay: 0.5s;
     }
   
-    .nx3 {
+    .chkdirection3 {
         animation-delay: 1s;
     }
 
-    .nx4{
+    .chkdirection4{
         animation-delay:1.5s;
     }
 }
 
 
 .selectionmenu2 {
-    .nx1 {
+    .chkdirection1 {
         animation-delay: 1.5s;
     }
   
-    .nx2 {
+    .chkdirection2 {
         animation-delay: 2s;
     }
   
-    .nx3 {
+    .chkdirection3 {
         animation-delay: 2.5s;
     }
 
@@ -611,15 +604,15 @@ padding-bottom: 17px;
 
 
 .selectionmenu3{
-    .nx1 {
+    .chkdirection1 {
         animation-delay: 3s;
     }
   
-    .nx2 {
+    .chkdirection2 {
         animation-delay: 3.5s;
     }
   
-    .nx3 {
+    .chkdirection3 {
         animation-delay: 4s;
     }
 
@@ -636,18 +629,24 @@ padding-bottom: 17px;
     }
   }
 
-.chkdirection{
+.chkdirection1, .chkdirection2, .chkdirection3, .chkdirection4{
     display:flex;
     flex-direction:row;
     align-items: center;
     position: relative;
     cursor:pointer;
+    background-color: white;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    border-radius:15px;
+    overflow: hidden;
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity:0;
+    flex-basis: 100%;
 }
 
 .chkmnu {
-    position: absolute;
-    right: 0;
-    top: 0;
     display:flex;
     font-size: 20px;
     color: white;
@@ -655,35 +654,23 @@ padding-bottom: 17px;
     padding: 24px 19px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    transition: width 0.2s ease-in-out, opacity 0.1s ease;
     opacity: 0;
-    width: 0;
     overflow: hidden;
+    margin-right: -50px;
+    transition-duration: .5s;
 }
   
-.chkdirection:hover .chkmnu {
-    width: 5%;
+.chkdirection1:hover .chkmnu, .chkdirection2:hover .chkmnu, .chkdirection3:hover .chkmnu, .chkdirection4:hover .chkmnu {
     opacity: 1;
     overflow: visible;
-  }
-
-.chkdirection:hover .selectiontxt {
-    max-width:84%;
+    margin: 0;
 }
 
-.chkdirection:hover .selectname{
-    max-width:65%;
-}
-
-.chkdirection:hover .description {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.chkdirection:hover .selectname{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.chkdirection1:hover .nx1, .chkdirection2:hover .nx2, .chkdirection3:hover .nx3, .chkdirection4:hover .nx4{
+        overflow: hidden;
+        overflow-x: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; 
 }
 
 .selectname{
@@ -692,15 +679,10 @@ padding-bottom: 17px;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    width:100%;
-    transition: max-width 0.5s ease;
-}
-
-.selectiontxt{
-    display:flex;
-    justify-content: space-between;
-    width:100%;
-    transition: max-width 0.5s ease;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
 }
 
 .description{
@@ -709,13 +691,19 @@ padding-bottom: 17px;
     font-weight: 300;
     font-size: 15.0431px;
     line-height: 18px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .price{
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     padding-right:15px;
+    padding-top: 27px;
+    margin-left:15px;
     font-size: 15.0431px;
     line-height: 18px;
 }
